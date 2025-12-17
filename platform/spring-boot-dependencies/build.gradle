@@ -72,7 +72,7 @@ bom {
 			releaseNotes("https://activemq.apache.org/components/artemis/download/release-notes-{version}")
 		}
 	}
-	library("AspectJ", "1.9.25") {
+	library("AspectJ", "1.9.25.1") {
 		group("org.aspectj") {
 			modules = [
 				"aspectjrt",
@@ -1315,7 +1315,7 @@ bom {
 			javadoc("https://projectlombok.org/api")
 		}
 	}
-	library("MariaDB", "3.5.6") {
+	library("MariaDB", "3.5.7") {
 		group("org.mariadb.jdbc") {
 			modules = [
 				"mariadb-java-client"
@@ -1752,7 +1752,7 @@ bom {
 			releaseNotes("https://github.com/oracle/oracle-r2dbc/releases/tag/{version}")
 		}
 	}
-	library("Pooled JMS", "3.1.7") {
+	library("Pooled JMS", "3.1.8") {
 		group("org.messaginghub") {
 			modules = [
 				"pooled-jms"
@@ -2428,7 +2428,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-framework/releases/tag/v{version}")
 		}
 	}
-	library("Spring GraphQL", "2.0.1-SNAPSHOT") {
+	library("Spring GraphQL", "2.0.1") {
 		considerSnapshots()
 		group("org.springframework.graphql") {
 			modules = [
@@ -2463,7 +2463,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-hateoas/releases/tag/{version}")
 		}
 	}
-	library("Spring Integration", "7.0.1-SNAPSHOT") {
+	library("Spring Integration", "7.0.1") {
 		considerSnapshots()
 		group("org.springframework.integration") {
 			bom("spring-integration-bom")
